@@ -15,6 +15,23 @@
 
 }
 
+
+
+#paisaje-principal img:hover{
+	border: solid 4px rgba(76, 76, 76, 0.46);
+}
+
+
+#paisaje-bot img:hover {
+	animation-name: rotate;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+}
+
+@keyframes rotate {
+	/*from {transform: rotate(0deg);}*/
+	to {transform: rotate(15deg);}
+}
 @media (max-width: 800px) {
 
 	.imagen-principal-top{

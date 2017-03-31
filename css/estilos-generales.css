@@ -52,7 +52,12 @@ a{
 }
 
 
-
+.footer p{
+	font-size: 1.2em;
+}
+.footer a{
+	font-size: 1.2em;
+}
 .footer-contenedor{
 	vertical-align: top;
 	display: inline-block;
