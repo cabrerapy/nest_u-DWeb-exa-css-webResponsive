@@ -1,0 +1,71 @@
+.principal-top {
+	color: black;
+	background-color: #82c3a6;
+}
+
+.principal-bot {
+	color: black;
+	background-color: #d5c75f ;
+}
+
+
+.principal-top, .principal-bot {
+	width: 100%;
+
+
+}
+
+@media (max-width: 800px) {
+
+	.imagen-principal-top{
+		width:94%;
+		height: auto;
+		margin: 3%;
+		box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.71), 0 8px 24px 0 rgba(184, 184, 0, 0.11);
+	}
+
+	.imagen-principal-bot{
+		width:95%;
+		box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.71), 0 8px 24px 0 rgba(184, 184, 0, 0.11);
+	}
+
+	.bot-contenedor{
+		width:100%;
+		padding: 3%;
+		display: inline-block;
+	}
+
+}
+
+
+@media (min-width: 800px) {
+
+	.principal-top {
+		width: 100%;
+		text-align: center;
+	}
+
+	.principal-bot {
+		width: 100%;
+		text-align: center;
+	}
+
+
+	.imagen-principal-top{
+		width:80%;
+		display: inline-block;
+		margin: 3%;
+		box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.71), 0 8px 24px 0 rgba(184, 184, 0, 0.11);
+	}
+
+	.bot-contenedor{
+		width:45%;
+		padding-top: 3%;
+		display: inline-block;
+	}
+	.imagen-principal-bot{
+		width:95%;
+		box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.71), 0 8px 24px 0 rgba(184, 184, 0, 0.11);
+	}
+
+}
