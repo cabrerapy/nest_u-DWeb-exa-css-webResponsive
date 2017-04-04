@@ -1,0 +1,58 @@
+
+.paisajes{
+	width:100%;
+	display: inline-block;
+	padding-bottom: 2%;
+	padding-top: 2%;
+
+}
+
+.principal-retratos-imagenes{
+	width: 100%;
+	text-align: center;
+	background-color:#d5c75f  ;
+}
+
+.super-imagenes{
+	width:94%;
+	height: auto;
+	padding: 2%;
+}
+
+#imagen1 img{
+	-webkit-filter: blur(10px);
+	filter: blur(10px);
+}
+
+#imagen2, #imagen4, #imagen6 img{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+#imagen3 img{
+	-webkit-filter: sepia(90%);
+	filter: sepia(90%);
+}
+
+
+
+@media (max-width: 900px) {
+
+	.paisajes{
+		width:94%;
+		height: auto;
+		margin: 3%;
+		display: inline-block;
+	}
+
+}
+
+
+@media (min-width: 900px) {
+
+	.paisajes{
+		width:32%;
+		display: inline-block;
+	}
+
+}

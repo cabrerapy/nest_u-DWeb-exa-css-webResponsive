@@ -1,5 +1,6 @@
 body {
 	font-family: Dancing Script;
+	background-color: black;
 }
 
 .container {
@@ -57,13 +58,24 @@ a{
 }
 .footer a{
 	font-size: 1.2em;
+
 }
+
+.cabezera a{
+	font-size: 1.3em;
+	padding: 1%;
+}
+
+ .cabezera span{
+	 font-size: 1.3em;
+	 padding: 1%;
+ }
 .footer-contenedor{
 	vertical-align: top;
 	display: inline-block;
 	text-align: left;
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
 	.menu{
 		width:100%;
 		display: inline-block;
@@ -83,17 +95,20 @@ a{
 }
 
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
+
+	.container{
+		max-width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	.cabezera {
 		width: 100%;
 		height: 10%;
 	}
 
-	.container {
-		width: 100%;
-		margin-left: auto;
-		margin-right: auto;
-	}
+
 
 	.titulo-header{
 		width:45%;

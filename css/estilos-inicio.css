@@ -19,20 +19,37 @@
 
 #paisaje-principal img:hover{
 	border: solid 4px rgba(76, 76, 76, 0.46);
+	background: #82c3a6;
 }
 
 
 #paisaje-bot img:hover {
 	animation-name: rotate;
-	animation-duration: 3s;
+	animation-duration: 0.5s;
 	animation-timing-function: linear;
+	border: 1px #d5c75f;
+
+
 }
 
 @keyframes rotate {
 	/*from {transform: rotate(0deg);}*/
-	to {transform: rotate(15deg);}
+	to {transform: rotate(10deg);}
 }
-@media (max-width: 800px) {
+
+#rostro-bot img:hover {
+	animation-name: translate;
+	animation-duration: 0.5s;
+	animation-timing-function: linear;
+	box-shadow: 0 5px 10px 0 #82c3a6, 0 8px 24px 0 rgba(130, 195, 166, 0.56);
+	border: 2px;
+}
+
+@keyframes translate {
+	/*from {transform: rotate(0deg);}*/
+	to {transform: translate(20px,5px);}
+}
+@media (max-width: 900px) {
 
 	.imagen-principal-top{
 		width:94%;
@@ -43,7 +60,7 @@
 
 	.imagen-principal-bot{
 		width:95%;
-		box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.71), 0 8px 24px 0 rgba(184, 184, 0, 0.11);
+
 	}
 
 	.bot-contenedor{
@@ -55,7 +72,9 @@
 }
 
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
+
+
 
 	.principal-top {
 		width: 100%;
@@ -82,7 +101,7 @@
 	}
 	.imagen-principal-bot{
 		width:95%;
-		box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.71), 0 8px 24px 0 rgba(184, 184, 0, 0.11);
+		/*box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.71), 0 8px 24px 0 rgba(184, 184, 0, 0.11);*/
 	}
 
 }
