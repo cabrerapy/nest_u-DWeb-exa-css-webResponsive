@@ -11,6 +11,8 @@ body {
 	display: flex;
 	-webkit-flex-flow: row wrap;
 	flex-flow: row wrap;
+	transition: background 1s;
+	animation: contenedor-animacion 2s;
 }
 
 a{
@@ -128,3 +130,16 @@ a{
 		padding-top: 2%;
 	}
 }
+
+@-webkit-keyframes contenedor-animacion {
+	0% {
+		margin-top: 150%
+	}
+	60% {
+		margin-top: -5%
+	}
+	100% {
+		margin-top: 0%
+	}
+}
+
